@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="99ec6954-bb9c-482b-aed7-bdd40c44ddb4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/MSMQ%20WCF/QueueService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="QueueService.xsd" MetadataType="Schema" ID="358d8b19-12cd-4bd9-aef4-4b8473bfeae7" SourceId="1" SourceUrl="http://localhost/MSMQ WCF/QueueService.svc?xsd=xsd1" />
+    <MetadataFile FileName="QueueService.disco" MetadataType="Disco" ID="0bbafe34-e289-4cf1-b70f-6bcae7d2b884" SourceId="1" SourceUrl="http://localhost/MSMQ WCF/QueueService.svc?disco" />
+    <MetadataFile FileName="QueueService.wsdl" MetadataType="Wsdl" ID="084e8b02-0cc4-4fe3-958f-a7c46a6a3051" SourceId="1" SourceUrl="http://localhost/MSMQ WCF/QueueService.svc?wsdl" />
+    <MetadataFile FileName="QueueService1.xsd" MetadataType="Schema" ID="64359f10-160a-4045-b5ad-ece1eeb30e5e" SourceId="1" SourceUrl="http://localhost/MSMQ WCF/QueueService.svc?xsd=xsd2" />
+    <MetadataFile FileName="QueueService2.xsd" MetadataType="Schema" ID="0d453146-6d53-44c5-a777-b9aaa5419930" SourceId="1" SourceUrl="http://localhost/MSMQ WCF/QueueService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
